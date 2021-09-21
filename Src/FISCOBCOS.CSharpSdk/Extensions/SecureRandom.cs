@@ -15,9 +15,9 @@ namespace FISCOBCOS.CSharpSdk.Extensions
             SecureRandomInstance.NextBytes(output);
         }
 
-        public void GetBytes(Span<byte> output)
-        {
-            SecureRandomInstance.NextBytes(output);
-        }
+        //public void GetBytes(Span<byte> output)
+        //{
+        //    SecureRandomInstance.NextBytes(output);
+        //}
     }
 }

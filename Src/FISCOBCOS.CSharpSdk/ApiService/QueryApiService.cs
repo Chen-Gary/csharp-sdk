@@ -21,7 +21,7 @@ namespace FISCOBCOS.CSharpSdk.ApiService
         }
 
         #region 基础属性
-        protected int _rpcId { get; set; }
+        protected new int _rpcId { get; set; }
 
         /// <summary>
         /// 异步 rpc 其他接口相对简单，参数要求参照单元测试 
